@@ -28,8 +28,7 @@ metadata:
     app: loksai-eta-np-app
 spec:
   selector:
-    app: loksai-eta-deploy-lbl
-
+    app: loksai-eta-app  # Updated to match Deployment Pod labels
   type: NodePort
   ports:
   - nodePort: 31028
